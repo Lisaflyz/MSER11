@@ -1,0 +1,29 @@
+﻿生成启动时间为 2016/9/15 11:39:39。
+     1>项目“E:\project\MSER11\MSER11\MSER11.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         E:\VS2013\VC\bin\CL.exe /c /I"D:\tesseract\tesseract-vs2013-include-lib-dll\include" /I"D:\tesseract\tesseract-vs2013-include-lib-dll\include\leptonica" /I"D:\tesseract\tesseract-vs2013-include-lib-dll\include\tesseract" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CONSOLE /D USE_STD_NAMESPACE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>d:\tesseract\tesseract-vs2013-include-lib-dll\include\tesseract\strngs.h(61): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2013\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\tesseract\tesseract-vs2013-include-lib-dll\include\tesseract\unicharset.h(47): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2013\vc\include\string.h(195) : 参见“strncpy”的声明
+     1>d:\tesseract\tesseract-vs2013-include-lib-dll\include\tesseract\unicharset.h(274): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>d:\tesseract\tesseract-vs2013-include-lib-dll\include\tesseract\unicharset.h(299): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 e:\vs2013\vc\include\stdio.h(211) : 参见“fopen”的声明
+     1>e:\project\mser11\mser11\robusttextdetection.h(34): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\project\mser11\mser11\robusttextdetection.h(35): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\project\mser11\mser11\robusttextdetection.h(36): warning C4305: “初始化”: 从“double”到“float”截断
+     1>e:\project\mser11\mser11\main.cpp(35): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\project\mser11\mser11\main.cpp(36): warning C4305: “=”: 从“double”到“float”截断
+     1>e:\project\mser11\mser11\main.cpp(37): warning C4305: “=”: 从“double”到“float”截断
+       Link:
+         E:\VS2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\project\MSER11\Debug\MSER11.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\tesseract\tesseract-vs2013-include-lib-dll\Lib" /LIBPATH:E:\openCV\opencv\build\x86\vc12\lib /LIBPATH:"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\Lib" ws2_32.lib user32.lib jpeg.lib liblept168.lib libpng.lib libtesseract302.lib libtiff.lib zlibstat.lib opencv_ts300d.lib opencv_world300d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\project\MSER11\Debug\MSER11.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\project\MSER11\Debug\MSER11.lib" /MACHINE:X86 Debug\ConnectedComponent.obj
+         Debug\main.obj
+         Debug\RobustTextDetection.obj
+         MSER11.vcxproj -> E:\project\MSER11\Debug\MSER11.exe
+     1>已完成生成项目“E:\project\MSER11\MSER11\MSER11.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.29
